@@ -10,4 +10,6 @@
 
 @interface RecipesViewController : UITableViewController
 
+@property (nonatomic,copy) NSArray *recipes;
+
 @end
